@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f3f3f3;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  max-width: 300px;
+  padding: 1.5rem;
+}
+
+.card-title {
+  margin-bottom: 3em;
+}
+
+.card-body {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.5rem 0.5rem;
+}
+
+.card-label {
+  font-weight: bold;
+}
