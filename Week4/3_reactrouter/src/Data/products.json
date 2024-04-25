@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "make": "Apple",
+    "model": "iPhone 13",
+    "price": 799,
+    "description": "The iPhone 13 features a 6.1 inch Super Retina XDR display and A15 Bionic chip for lightning-fast performance."
+  },
+  {
+    "id": 2,
+    "make": "Samsung",
+    "model": "Galaxy S22",
+    "price": 999,
+    "description": "Galaxy S22 offers a dynamic AMOLED 2X display and an advanced pro-grade camera for exceptional photo quality."
+  },
+  {
+    "id": 3,
+    "make": "Google",
+    "model": "Pixel 6",
+    "price": 599,
+    "description": "Google Pixel 6 comes with Google's own Tensor chip and a redesigned camera system for stunning photos."
+  },
+  {
+    "id": 4,
+    "make": "Dell",
+    "model": "XPS 13",
+    "price": 1200,
+    "description": "The Dell XPS 13 laptop offers a 13.4-inch InfinityEdge display, 11th Gen Intel Core processors, and up to 19 hours of battery life."
+  },
+  {
+    "id": 5,
+    "make": "Bose",
+    "model": "QuietComfort 45",
+    "price": 329,
+    "description": "Bose QuietComfort 45 headphones feature world-class noise cancellation and high-fidelity audio for an exceptional listening experience."
+  }
+]
