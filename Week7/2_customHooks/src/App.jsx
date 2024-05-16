@@ -1,5 +1,5 @@
 import MyForm from "./components/MyForm";
-import ThemeSelector from "./components/ThemSelector";
+import ThemeSelector from "./components/ThemeSelector";
 function App() {
   return (
     <>
