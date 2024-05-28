@@ -11,8 +11,8 @@ function App() {
       <main>
         {/* <Login /> */}
         {/* <BetterLogin /> */}
-        <RefLogin />
-        {/* <Signup /> */}
+        {/* <RefLogin /> */}
+        <Signup />
       </main>
     </>
   );
