@@ -10,24 +10,21 @@ const app = express();
 const server = http.createServer(app);
 
 // Initialize a new instance of socket.io by passing the HTTP server object
-// This creates a WebSocket server attached to the HTTP server
-const io = new Server(server, {
+const io = socketIo(server, {
   cors: {
     origin: "http://localhost:5173", // Allow requests from this origin
-    methods: ["GET", "POST"], // Allow GET and POST methods
-    allowedHeaders: ["Content-Type"], // Allow these headers
-    credentials: true, // Allow credentials (cookies, authorization headers, TLS client certificates)
+    methods: ["GET", "POST"],
+    allowedHeaders: ["Content-Type"],
+    credentials: true,
   },
 });
 
-// Enable CORS for the Express application
-// This middleware will allow cross-origin requests from the specified origin
 app.use(
   cors({
     origin: "http://localhost:5173", // Allow requests from this origin
-    methods: ["GET", "POST"], // Allow GET and POST methods
-    allowedHeaders: ["Content-Type"], // Allow these headers
-    credentials: true, // Allow credentials (cookies, authorization headers, TLS client certificates)
+    methods: ["GET", "POST"],
+    allowedHeaders: ["Content-Type"],
+    credentials: true,
   })
 );
 // Socket.IO event handling
